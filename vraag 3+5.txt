@@ -1,0 +1,18 @@
+3/ (1 punt) Waarom kunnen REST en SOAP eigenlijk niet met elkaar vergeleken worden, maw wat is het fundamentele verschil tussen beiden?
+SOAP is een op standaarden gebaseerde protocol. Het heeft een structuur die bestaat uit een header en body. 
+De header worden de elementen die aan de transactie en het lichaam bevat de boodschap of opdracht . 
+REST , daarentegen , heeft een dergelijke vooraf gedefinieerde structuur . Het maakt gebruik van de bestaande eXtensible Markup Language commando's van GET , POST , PUT en DELETE voor het uitvoeren van haar activiteiten .
+
+Soap is interessanter voor complexe webservices en Rest interessanter voor eenvoudige webservices
+
+
+
+5/ (3 punten) Eén van de grote voordelen van SOAP XML is type safety. Beschrijf (kort!) twee simpele manieren waarop je dit in REST ook zou kunnen implementeren gebruik makend van standaard libraries.
+Refit
+
+Argo:
+Argo is een JSON parser en generator voor Java. het bied three parse interfaces - een push parser, een pull parser, en een DOM style parser. 
+Het is gemaakt om gemakkelijk te gebruiken, is typesafe, en snel. Het is open srouce en dus vrij te gebruiken.
+
+ObjectMapper:
+ObjectMapper bied de functionaliteit voor het converteren van Java objecten (instances of JDK provided core classes, beans), en matching JSON constructies. Het maakt gebruik van JsonParser instaties en JsonGenerator voor het implementeren van lezen/schrijven van JSON.
